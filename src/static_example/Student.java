@@ -15,7 +15,7 @@ public class Student {
 
 	public static int getSerialNum() {
 		int i = 10; //지역변수 선언은 가능 (메소드가 호출 될 떄 생성, 메소드가 끝나면 사라짐, 스택에 생성)
-		i++;
+		
 		System.out.println(i);
 		//studentName = "홍길동"; 멤버변수(인스턴스 변수) (인스턴스가 생성될 때 생성 됨, 힙에 생성)
 		//인스턴스 변수의 경우 인스턴스가 먼저 생성되어야 한다(new) static 매소드에서는 생성이 불확실한 인스턴스 변수를 사용할 수 없다
