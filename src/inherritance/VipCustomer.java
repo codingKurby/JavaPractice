@@ -11,6 +11,13 @@ public class VipCustomer extends Customer {
 		saleRatio = 0.1;
 	}
 	
+	public VipCustomer(int customerID, String customerName) {
+		super(customerID,customerName);
+		customerGrade = "Vip";
+		bonusRatio = 0.05;
+		saleRatio = 0.1;
+	}
+	
 	public int getAgentID() {
 		return agentID;
 	}
