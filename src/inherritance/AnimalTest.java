@@ -1,5 +1,7 @@
 package inherritance;
 
+import java.util.ArrayList;
+
 class Animal{
 	public void move() {
 		System.out.println("동물이 움직입니다.");
@@ -32,6 +34,12 @@ public class AnimalTest {
 		test.moveAnimal(new Human());
 		test.moveAnimal(new Tiger());
 		test.moveAnimal(new Eagle());
+		
+		Animal[] animalList = new Animal[3];
+		animalList[0] = new Human();
+		
+		ArrayList<Animal> animals = new ArrayList<Animal>();
+		animals.add(new Tiger());
 	}
 	
 	public void moveAnimal(Animal animal) {
