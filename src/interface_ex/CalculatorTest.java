@@ -14,5 +14,7 @@ public class CalculatorTest {
 		*/
 		System.out.println(calc.add(num1, num2));
 		
+		calc.description();
+		
 	}
 }
